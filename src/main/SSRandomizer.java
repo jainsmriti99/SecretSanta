@@ -72,7 +72,7 @@ public class SSRandomizer {
 	/*
 	 * Random Secret Santa picker
 	 * @param - List of names participating in Secret Santa
-	 * @returns - Hashmap of Secret santa and the recepient names  
+	 * @returns - Hashmap of Secret santa and the recipient names  
 	 */
 	public HashMap<String,String> getSanta() throws IllegalArgumentException{
 		if(listToPick.size() < 2)
